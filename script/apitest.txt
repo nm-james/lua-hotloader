@@ -1,0 +1,6 @@
+"apitest"
+{
+	"base"		"sandbox"
+	"title"		"API Test"
+	"menusystem"	"1"
+}

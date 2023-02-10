@@ -1,0 +1,26 @@
+.navigationBar .navigationTitle {
+    background-color: rgba(65, 125, 65, 255);
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 1.2% 0%;
+    font-size: 160%;
+}
+
+.navigationBar ul {
+    padding: 0.3% 0%;
+    background-color: rgba(15, 25, 15, 255);
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+}
+
+.navigationBar ul li {
+    display: inline-block;
+    width: 5%;
+}
+
+.navigationBar ul li a {
+    color: rgba(242, 242, 242, 255);
+    text-decoration: none;
+}

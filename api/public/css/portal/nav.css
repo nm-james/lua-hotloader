@@ -1,0 +1,59 @@
+
+.sidebar {
+    height: 100%;
+    width: 32px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 3%;
+    white-space: nowrap;
+}
+
+.sidebar a {
+    padding: 3px 8px 3px 4.5px;
+    text-decoration: none;
+    font-size: 140%;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: -1.5%;
+}
+
+#main {
+    transition: margin-left 0.5s;
+    padding-bottom: .5%;
+    margin-left: 32px;
+}
+
+.contentContainer {
+    height: 0%;
+    overflow: hidden;
+    background-color: rgba(25, 25, 32, 255);
+    transition: height 0.3s;
+}
+
+.contentContainer a {
+    padding: 3.5px 8px 3.5px 4.5px;
+    font-size: 110%;
+}
+
+.profileContainer {
+    position: relative;
+    height: 6.5%;
+    background-color: rgba(195, 195, 195, 255);
+    border-bottom: rgba(145, 145, 145, 255) solid 1px;
+}
+
+.logoutContainer {
+    position: absolute;
+    right: 0;
+}
